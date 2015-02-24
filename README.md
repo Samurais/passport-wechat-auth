@@ -1,4 +1,4 @@
-# Passport-Google-OAuth
+# Passport-wechat-auth
 
 [Passport](http://passportjs.org/) strategies for authenticating with [wechat]
 using OAuth 1.0a and OAuth 2.0.
@@ -11,7 +11,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-google-oauth
+    $ npm install passport-wechat-auth
 
 ## Usage of OAuth 2.0
 
