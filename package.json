@@ -1,0 +1,56 @@
+{
+  "name": "passport-wechat-auth",
+  "version": "0.0.1",
+  "description": "Wechat (OAuth) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "wechat",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danywheeler/passport-wechat-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danywheeler/passport-wechat-auth/issues"
+  },
+  "author": {
+    "name": "jeremy",
+    "email": "c.yongfang@gmail.com",
+    "url": "http://www.joymv.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-utils": "latest"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readme": "# Passport-wechat-auth\n\n[Passport](http://passportjs.org/) strategies for authenticating with [wechat]\n\n## Install\n\n    $ npm install passport-wechat-auth",
+  "_npmUser": {
+    "name": "joymv",
+    "email": "c.yongfang@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "jeremy",
+      "email": "c.yongfang@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/danywheeler/passport-wechat-auth"
+}
